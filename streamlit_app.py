@@ -20,6 +20,5 @@ if response.status_code == 200:
     # Extracting abilities from a nested list
     abilities = [item['ability']['name'] for item in data['abilities']]
     st.write(str(abilities))
-
-st.write("Hi this is new edit")
+    st.write("Hi this is new edit")
     print(f"Abilities: {abilities}")
